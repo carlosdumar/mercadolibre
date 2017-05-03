@@ -10,7 +10,8 @@ var gulp = require('gulp'),
     source = require('vinyl-source-stream'),
     connect = require('gulp-connect'),
     buffer = require('vinyl-buffer'),
-    cors = require('cors');
+    cors = require('cors'),
+    jshint = require('gulp-jshint');
 
 var config = {
     styles: {
@@ -66,6 +67,13 @@ gulp.task('watch', function() {
   gulp.watch(config.styles.watch, ['build:css']);
   gulp.watch(config.js.watch, ['build:js']);
   gulp.watch(config.html.watch, ['build:html']);
+  gulp.watch(config.js.watch, ['jshint']);  
+});
+
+gulp.task('jshint', function() {
+    return gulp.src(config.js.main)
+        .pipe(jshint())
+        .pipe(jshint.reporter('jshint-stylish'));
 });
 
 gulp.task('build', ['build:css', 'build:js', 'build:html']);
