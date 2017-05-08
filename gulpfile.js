@@ -36,9 +36,10 @@ var config = {
  */
 function minifyIfNeeded() {
     return gutil.env.env === 'prod'
-        ? uglify()
+        ? uglify().on('error', gutil.log)
         : gutil.noop();
 }
+
 gulp.task('server', function() {
   gulp.src('./public')
     .pipe(webserver({
@@ -54,8 +55,7 @@ gulp.task('build:css', function() {
       use: nib(),
       'include css': true
     }))
-    .pipe(minifyCSS())
-    .pipe(minifyIfNeeded())
+    .pipe(gutil.env.env === 'prod' ? minifyCSS() : gutil.noop())
     .pipe(gulp.dest(config.styles.output));
 });
 
@@ -64,14 +64,13 @@ gulp.task('build:js', function() {
         .bundle()
         .pipe(source('bundle.js'))
         .pipe(buffer())
-        .pipe(minifyIfNeeded())
+        .pipe(gutil.env.env === 'prod' ? uglify() : gutil.noop())
         .pipe(gulp.dest(config.js.output))
 });
 
 gulp.task('build:html', function() {
-  gulp.src(config.html.main)
-      .pipe(minifyIfNeeded())
-      .pipe(htmlmin({collapseWhitespace: true}))
+  gulp.src(config.html.main)  
+      .pipe(gutil.env.env === 'prod' ? htmlmin({collapseWhitespace: true}) : gutil.noop())
       .pipe(gulp.dest(config.html.output));
 });
 

@@ -3,11 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/stylesheets/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
 </head>
-<body>
-    <h1>Hola a todos!</h1>
-    <script src="./assets/javascript/bundle.js">
-        
-    </script>
+<body ng-app="tiendaDumar">
+    <header class="header">
+        <figure class="header-logo">
+            <img src="./assets/images/logo.png" alt="logo de la empresa" >
+        </figure>
+        <ul class="header-menu">
+            <li class="item"><i class="fa fa-shopping-bag fa-2x" aria-hidden="true"></i>Mira todos nuestros productos</li>
+            <li class="item mercadolibre">
+                <div>
+                    <img src="./assets/images/otra.jpg" alt="" width="50px"></img>
+                    <span>Mira todos nuestros productos</span>
+                </div>
+            </li>
+            <li class="item"><i class="fa fa-question-circle fa-2x" aria-hidden="true"></i>¿Como comprar?</li>
+        </ul>
+    </header>
+    <article ng-controller="HomeController">
+        <section class="product">           
+            <div class="product-name" ng-repeat="product in products.product">
+                <div class="description">
+                    <h1 ng-bind="product.name"></h1>
+                    <p ng-bind="product.description"></p>
+                </div>
+                <figure class="image">
+                    <img ng-src="{{product.url}}" alt="">
+                </figure>
+                
+            </div>
+        </section>
+        <section class="caracteristicas" ng-repeat="carac in products.product">
+            <div class="caracteristicas-title">
+                <span>Caracterisiticas del Producto</span>
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </div>
+            <div class="caracteristicas-items">
+                <div class="caracs">
+                    <ul class="items">
+                        <li ng-repeat="c in carac.caracteristics" ng-bind="c.value"></li>
+                    </ul>            
+                </div>
+                <figure ng-repeat="img in carac.imgCaracteristics">
+                        <img ng-src="{{img.url}}" alt="">
+                </figure>
+            </div>           
+        </section>
+        <section class="imagenes" ng-repeat="imagen in products.product">
+            <div class="imagenes-title titleSections">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>                
+                <span>Imagenes del Producto</span>
+            </div>
+            <div class="imagenes-items">
+                <figure ng-repeat="img in imagen.imagenes">
+                    <img ng-src="{{img.value}}" alt="" >
+                </figure>
+            </div>     
+        </section>
+        <section class="pagos">
+            <div class="pagos-title titleSections">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>                
+                <span>Formas de Pago</span>
+            </div>
+            <div>
+                <figure>
+                    <img src="./assets/images/coins.png" alt="" width="80px">
+                </figure>
+                <span class="desc">Contado / Efectivo</span>
+            </div>
+            <div class="pagos-mercadopagos">
+                <figure>
+                    <img src="./assets/images/mercadopago.png" alt="" width="150px">
+                </figure>
+            </div>
+            <div class="pagos-bancos">
+                <figure>
+                    <img src="./assets/images/logoVisa.png" alt="">
+                    <img src="./assets/images/masterCard.png" alt="">
+                    <img src="./assets/images/logoAmericanExpress.png" alt="" >
+                    <img src="./assets/images/davivienda.png" alt="" width="100px">
+                </figure>
+            </div>
+            <div class="pagos-depositos">
+                <i class="fa fa-university fa-3x" aria-hidden="true"></i>
+                <span class="desc">Deposito / Transferencia</span>
+                <figure>
+                    <img src="./assets/images/logoBancolombia.png" alt="" width="180px">
+                </figure>
+            </div>
+        </section>
+        <section class="envio">
+            <div class="envio-title titleSections">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>                
+                <span>Formas de Envio</span>
+            </div>
+            <span class="formas">Se puede retirar personalmente</span><br>
+            <span class="formas">Hacemos envios a todo el pais</span>
+            <figure class="envio-image">
+                <img src="./assets/images/mercadoenvios.jpg" alt="" width="300px">
+            </figure>
+        </section>
+        <section class="ubicacion">
+            <div class="ubicacion-title titleSections">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>                
+                <span>¿Donde Estamos Ubicados?</span>
+            </div>
+            <div class="ubicacion-figure">
+                <div class="figure">
+                    <figure>
+                        <img src="./assets/images/googlemaps.png" alt="" width="600px">
+                    </figure>
+                </div>
+            </div>         
+        </section>
+    </article>
+    <script src="./assets/javascript/bundle.js"></script>
 </body>
 </html>
