@@ -240,7 +240,7 @@ textarea {
   margin-bottom: 0.5em;
 }
 .caracteristicas-items img {
-  width: 70vh;
+  width: 60vh;
 }
 .imagenes-items {
   text-align: center;
@@ -250,7 +250,7 @@ textarea {
   margin: 0 0.5em 1em 0;
 }
 .imagenes-items figure img {
-  width: 70%;
+  width: 60%;
 }
 .pagos figure {
   display: inline-block;
@@ -301,6 +301,7 @@ h1 {
   margin: 0;
 }
 body {
+  margin: 0 1em;
   font-size: 16px;
   font-family: 'Maven Pro', sans-serif;
 }
