@@ -1,29 +1,24 @@
 {
     "product": [
         {
-            "name": "Luz Led Para Bicicletas/ciclista, Luz Roja",
-            "url": "../assets/images/led.jpg",
-            "description": "LED Intermitente Bicicleta Ciclismo lámpara de cola de advertencia de Luz de Seguridad Trasera Impermeable Nuevo",
-            "caracteristics": [
-                {"value": "100% nuevo y de alta calidad"},
-                {"value": "Fácil de instalar"},
-                {"value": "Compacto, conveniente para llevar"},
-                {"value": "Brillo fuerte, un gran accesorio para garantizar su seguridad cuando se conduce por la noche"},
-                {"value": "Fuente: 2 baterías de x CR2032(Incluidas)"},
-                {"value": "Diámetro del soporte de la lámpara: 2cm"},
-                {"value": "Longitud de la correa de silicona: 9,8 cm"},
-                {"value": "Incluye: 1 PC Luz de la precaución de la seguridad de ciclo. Baterias CR2032"}
+            "name": "Soporte Para Teléfono Celular Para Carro",
+            "url": "../assets/images/support.jpg",
+            "description": "Universal Mini Salida de Aire Coche Soporte stents Soporte de montaje de ventilación para teléfonos celulares",
+            "caracteristics": [ 
+                {"value": "Abrir y cerrar libremente, fácil instalación"},
+                {"value": "Colocado en la salida del coche, propicio para el calor, Conveniente para operar"},
+                {"value": "No bloqueará su vista, el cumplimiento de las normas de tránsito"},
+                {"value": "Fácil de retirar e instalar en la salida de aire acondicionado del coche"},
+                {"value": "Se puede girar 360 grados, fácil para ajustar a cualquier ángulo de visión"},
+                {"value": "Ancho del teléfono móvil de la ayuda entre 5-8cm"}
             ],
             "imgCaracteristics": [
-                {"url": "../assets/images/led2.jpg"},
-                {"url": "../assets/images/led3.jpg"}
+                {"url": "../assets/images/support2.jpg"},
+                {"url": "../assets/images/support3.jpg"}
             ],
             "imagenes": [
-                {"value": "../assets/images/led4.jpg"},
-                {"value": "../assets/images/led5.jpg"},
-                {"value": "../assets/images/led6.jpg"},
-                {"value": "../assets/images/led7.jpg"}
-            ] 
+                {"value": "../assets/images/support5.jpg"}
+            ]          
         }
     ]
 }

@@ -1,30 +1,29 @@
 {
     "product": [
         {
-            "name": "Luz Led Recargable x3",
-            "url": "../assets/images/ledusb.jpg",
-            "description": "Tamaño pequeño y fácil llevar, gama de iluminación grande, haciendo una visión más amplia mientras que conduce en la noche. Utiliza el material de la aleación de aluminio, durable a utilizar y tiene conductividad termal excelente. El diseño integrado con el buen arte de sellado asegura el funcionamiento impermeable excelente, permitiéndole conducir en cualquier condición atmosférica. Cargado conectando el cable micro del USB a la computadora o enchufando el cargador del teléfono a la toma de corriente de la pared",
+            "name": "Luz Led Para Bicicletas/ciclista, Luz Roja",
+            "url": "../assets/images/led.jpg",
+            "description": "LED Intermitente Bicicleta Ciclismo lámpara de cola de advertencia de Luz de Seguridad Trasera Impermeable Nuevo",
             "caracteristics": [
-                {"value": "40LM, 4 modos ligeros (fuerte, débil, flash lento, strobe)"},
-                {"value": "Material: aleación de aluminio + plástico de la ingeniería"},
-                {"value": "Color: cubierta negra + luz roja"},
-                {"value": "LED: 3 x LEDs brillantes"},
-                {"value": "Cómo cargar: a través del cable Micro USB"},
-                {"value": "Longitud del cable USB: unos 200 mm"},
-                {"value": "Batería: batería recargable del li-polímero (650MAH 3.7V)"},
-                {"value": "Cantidad: 1pc"},
-                {"value": "Paquete incluido: 1x luz delantera de la bici, 1 x cable de carga USB"}
+                {"value": "100% nuevo y de alta calidad"},
+                {"value": "Fácil de instalar"},
+                {"value": "Compacto, conveniente para llevar"},
+                {"value": "Brillo fuerte, un gran accesorio para garantizar su seguridad cuando se conduce por la noche"},
+                {"value": "Fuente: 2 baterías de x CR2032(Incluidas)"},
+                {"value": "Diámetro del soporte de la lámpara: 2cm"},
+                {"value": "Longitud de la correa de silicona: 9,8 cm"},
+                {"value": "Incluye: 1 PC Luz de la precaución de la seguridad de ciclo. Baterias CR2032"}
             ],
             "imgCaracteristics": [
-                {"url": "../assets/images/ledusb2.jpg"},
-                {"url": "../assets/images/ledusb3.jpg"}
+                {"url": "../assets/images/led2.jpg"},
+                {"url": "../assets/images/led3.jpg"}
             ],
             "imagenes": [
-                {"value": "../assets/images/ledusb4.jpg"},
-                {"value": "../assets/images/ledusb5.jpg"},
-                {"value": "../assets/images/ledusb6.jpg"},
-                {"value": "../assets/images/ledusb7.jpg"}
-            ]          
+                {"value": "../assets/images/led4.jpg"},
+                {"value": "../assets/images/led5.jpg"},
+                {"value": "../assets/images/led6.jpg"},
+                {"value": "../assets/images/led7.jpg"}
+            ] 
         }
     ]
 }
