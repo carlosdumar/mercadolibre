@@ -253,6 +253,13 @@ textarea {
 .imagenes-items figure img {
   width: 60%;
 }
+.pagos {
+  display: flex;
+  font-size: 1.3em;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 .pagos figure {
   display: inline-block;
   margin: 0 0 1em 1em;
@@ -263,6 +270,14 @@ textarea {
 .pagos i {
   margin-left: 0.5em;
 }
+.envio {
+  font-size: 1.3em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.8em 0;
+}
 .envio .formas {
   font-size: 1.3em;
   margin-left: 1em;
@@ -271,7 +286,10 @@ textarea {
   margin-left: 1em;
 }
 .envio-image {
-  margin-top: 1em;
+  margin: 0.8em;
+}
+.ubicacion {
+  font-size: 1.3em;
 }
 .ubicacion-figure {
   display: flex;
@@ -294,7 +312,12 @@ textarea {
   background: #065c87;
   margin-bottom: 1em;
   font-size: 1.5em;
-  text-align: left;
+  text-align: center;
+  width: 100%;
+}
+.mercadopagos {
+  border-right: 1px solid #d3d3d3;
+  padding-right: 1em;
 }
 figure,
 ul,
