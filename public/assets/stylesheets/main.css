@@ -214,24 +214,26 @@ textarea {
 .product-name .description {
   padding: 1em;
 }
-.product-name .description h1 {
+.product-name .description span {
   color: #3498db;
+  font-size: 2em;
+  font-weight: bold;
 }
 .product-name .description p {
-  color: #585858;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 .caracteristicas-title {
   color: #fff;
   padding: 0.3em 1em;
   background: #065c87;
-  font-size: 1.5em;
+  font-size: 1.8em;
   text-align: right;
 }
 .caracteristicas-items {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  font-size: 1.2em;
 }
 .caracteristicas-items .caracs {
   margin: 1em 0;
@@ -243,6 +245,13 @@ textarea {
 .caracteristicas-items img {
   width: 60vh;
 }
+.imagenes-title {
+  color: #fff;
+  padding: 0.3em 1em;
+  background: #065c87;
+  font-size: 1.8em;
+  text-align: left;
+}
 .imagenes-items {
   text-align: center;
 }
@@ -252,13 +261,6 @@ textarea {
 }
 .imagenes-items figure img {
   width: 60%;
-}
-.pagos {
-  display: flex;
-  font-size: 1.3em;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
 }
 .pagos figure {
   display: inline-block;
@@ -270,14 +272,6 @@ textarea {
 .pagos i {
   margin-left: 0.5em;
 }
-.envio {
-  font-size: 1.3em;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin: 0.8em 0;
-}
 .envio .formas {
   font-size: 1.3em;
   margin-left: 1em;
@@ -288,15 +282,8 @@ textarea {
 .envio-image {
   margin: 0.8em;
 }
-.ubicacion {
-  font-size: 1.3em;
-}
-.ubicacion-figure {
-  display: flex;
-  justify-content: center;
-}
 .ubicacion-figure .figure {
-  border: 6px solid #065c87;
+  border: 9px solid #3498db;
   border-radius: 900px 900px 900px 900px;
   width: 50vh;
   height: 50vh;
@@ -306,18 +293,38 @@ textarea {
   width: 50vh;
   height: 50vh;
 }
+.ubicacion-figure .ciudad {
+  font-size: 1.2em;
+  margin-top: 0.5em;
+}
 .titleSections {
+  font-size: 1.3em;
+  margin: 0.8em 0;
   color: #fff;
   padding: 0.3em 1em;
   background: #065c87;
   margin-bottom: 1em;
-  font-size: 1.5em;
+  font-size: 2em;
   text-align: center;
   width: 100%;
 }
 .mercadopagos {
   border-right: 1px solid #d3d3d3;
   padding-right: 1em;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.left {
+  margin-left: 0.5em;
 }
 figure,
 ul,

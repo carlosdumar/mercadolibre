@@ -27,7 +27,7 @@
         <section class="product">           
             <div class="product-name" ng-repeat="product in products.product">
                 <div class="description">
-                    <h1 ng-bind="product.name"></h1>
+                    <span ng-bind="product.name"></span>
                     <p ng-bind="product.description"></p>
                 </div>
                 <figure class="image">
@@ -53,20 +53,20 @@
             </div>           
         </section>
         <section class="imagenes" ng-repeat="imagen in products.product">
-            <div class="imagenes-title titleSections">
+            <div class="imagenes-title">
                 <i class="fa fa-arrow-right" aria-hidden="true"></i>                
                 <span>Imagenes del Producto</span>
             </div>
             <div class="imagenes-items">
                 <figure ng-repeat="img in imagen.imagenes">
-                    <img ng-src="{{img.value}}" alt="" >
+                    <img ng-src="{{img.value}}" alt="">
                 </figure>
-            </div>     
+            </div>
         </section>
-        <section class="pagos">
-            <div class="pagos-title titleSections">
+        <section class="pagos column">
+            <div class="pagos-title titleSections row">
                 <i class="fa fa-usd fa-lg" aria-hidden="true"></i>                
-                <span>Formas de Pago</span>
+                <span class="left">Formas de Pago</span>
             </div>
             <div>
                 <figure>
@@ -88,7 +88,7 @@
                     <img src="./assets/images/davivienda.png" alt=""  width="100px">
                 </figure>
             </div>
-            <div class="pagos-depositos">
+            <div class="pagos-depositos column">
                 <i class="fa fa-university fa-3x" aria-hidden="true"></i>
                 <span class="desc">Deposito / Transferencia</span>
                 <figure>
@@ -96,10 +96,10 @@
                 </figure>
             </div>
         </section>
-        <section class="envio">
-            <div class="envio-title titleSections">
+        <section class="envio column">
+            <div class="envio-title titleSections row">
                 <i class="fa fa-truck fa-lg" aria-hidden="true"></i>                
-                <span>Formas de Envio</span>
+                <span class="left">Formas de Envio</span>
             </div>
             <span class="formas">Se puede retirar personalmente</span><br>
             <span class="formas">Hacemos envios a todo el pais</span>
@@ -107,16 +107,19 @@
                 <img src="./assets/images/mercadoenvios.jpg" alt="" width="350px">
             </figure>
         </section>
-        <section class="ubicacion">
-            <div class="ubicacion-title titleSections">
+        <section class="ubicacion column">
+            <div class="ubicacion-title titleSections row">
                 <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>                
-                <span>¿Donde Estamos Ubicados?</span>
+                <span class="left">¿Donde Estamos Ubicados?</span>
             </div>
-            <div class="ubicacion-figure">
+            <div class="ubicacion-figure column">
                 <div class="figure">
                     <figure>
                         <img src="./assets/images/googlemaps.png" alt="" width="600px">
                     </figure>
+                </div>
+                <div class="ciudad">
+                    <span>Los Colores,Medellin</span>
                 </div>
             </div>         
         </section>
