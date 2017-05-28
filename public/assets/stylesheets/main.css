@@ -192,7 +192,7 @@ textarea {
   background-color: #000;
   border-top: 2px solid #065c87;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 .header-menu .item {
   color: #3498db;
@@ -243,7 +243,7 @@ textarea {
   margin-bottom: 0.5em;
 }
 .caracteristicas-items img {
-  width: 60vh;
+  width: 50vh;
 }
 .imagenes-title {
   color: #fff;
@@ -257,7 +257,7 @@ textarea {
 }
 .imagenes-items figure {
   display: inline-block;
-  margin: 0 0.5em 1em 0;
+  margin: 1.5em 0.5em 1em 0;
 }
 .imagenes-items figure img {
   width: 60%;
@@ -273,8 +273,7 @@ textarea {
   margin-left: 0.5em;
 }
 .envio .formas {
-  font-size: 1.3em;
-  margin-left: 1em;
+  font-size: 1.4em;
 }
 .envio figure {
   margin-left: 1em;
@@ -287,6 +286,7 @@ textarea {
   border-radius: 900px 900px 900px 900px;
   width: 50vh;
   height: 50vh;
+  display: inline-block;
 }
 .ubicacion-figure .figure img {
   border-radius: 900px 900px 900px 900px;
@@ -306,16 +306,13 @@ textarea {
   margin-bottom: 1em;
   font-size: 2em;
   text-align: center;
-  width: 100%;
 }
 .mercadopagos {
   border-right: 1px solid #d3d3d3;
   padding-right: 1em;
 }
-.column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.center {
+  text-align: center;
 }
 .row {
   display: flex;
@@ -325,6 +322,11 @@ textarea {
 }
 .left {
   margin-left: 0.5em;
+}
+.sombra {
+  -webkit-box-shadow: 11px 7px 28px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 7px 28px -9px rgba(0,0,0,0.75);
+  box-shadow: 11px 7px 28px -9px rgba(0,0,0,0.75);
 }
 figure,
 ul,

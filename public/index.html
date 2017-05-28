@@ -31,13 +31,13 @@
                     <p ng-bind="product.description"></p>
                 </div>
                 <figure class="image">
-                    <img ng-src="{{product.url}}" alt="">
+                    <img ng-src="{{product.url}}" alt="" width="900px" height="800px">
                 </figure>
                 
             </div>
         </section>
         <section class="caracteristicas" ng-repeat="carac in products.product">
-            <div class="caracteristicas-title">
+            <div class="caracteristicas-title sombra">
                 <span>Caracteristicas del Producto</span>
                 <i class="fa fa-arrow-left" aria-hidden="true"></i>
             </div>
@@ -53,7 +53,7 @@
             </div>           
         </section>
         <section class="imagenes" ng-repeat="imagen in products.product">
-            <div class="imagenes-title">
+            <div class="imagenes-title sombra">
                 <i class="fa fa-arrow-right" aria-hidden="true"></i>                
                 <span>Imagenes del Producto</span>
             </div>
@@ -63,7 +63,7 @@
                 </figure>
             </div>
         </section>
-        <section class="pagos column">
+        <section class="pagos center">
             <div class="pagos-title titleSections row">
                 <i class="fa fa-usd fa-lg" aria-hidden="true"></i>                
                 <span class="left">Formas de Pago</span>
@@ -96,18 +96,18 @@
                 </figure>
             </div>
         </section>
-        <section class="envio column">
+        <section class="envio center">
             <div class="envio-title titleSections row">
                 <i class="fa fa-truck fa-lg" aria-hidden="true"></i>                
                 <span class="left">Formas de Envio</span>
             </div>
-            <span class="formas">Se puede retirar personalmente</span><br>
+            <span class="formas">Se puede retirar personalmente</span><br><br>
             <span class="formas">Hacemos envios a todo el pais</span>
             <figure class="envio-image">
                 <img src="./assets/images/mercadoenvios.jpg" alt="" width="350px">
             </figure>
         </section>
-        <section class="ubicacion column">
+        <section class="ubicacion center">
             <div class="ubicacion-title titleSections row">
                 <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>                
                 <span class="left">¿Donde Estamos Ubicados?</span>

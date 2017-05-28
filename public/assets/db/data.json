@@ -1,23 +1,28 @@
 {
     "product": [
         {
-            "name": "Soporte Para Teléfono Celular Para Carro",
-            "url": "../assets/images/support.jpg",
-            "description": "Universal Mini Salida de Aire Coche Soporte stents Soporte de montaje de ventilación para teléfonos celulares",
-            "caracteristics": [ 
-                {"value": "Abrir y cerrar libremente, fácil instalación"},
-                {"value": "Colocado en la salida del coche, propicio para el calor, Conveniente para operar"},
-                {"value": "No bloqueará su vista, el cumplimiento de las normas de tránsito"},
-                {"value": "Fácil de retirar e instalar en la salida de aire acondicionado del coche"},
-                {"value": "Se puede girar 360 grados, fácil para ajustar a cualquier ángulo de visión"},
-                {"value": "Ancho del teléfono móvil de la ayuda entre 5-8cm"}
+            "name": "Mascara anti-poluciòn WolfBike Bicicleta",
+            "url": "../assets/images/mascara.jpg",
+            "description": "El material suave, el usar cómodo, la sensación es efecto bueno, a prueba de polvo, termal es muy bueno. De acuerdo con el diseño de la cara de la persona, mantener fuera el puente de la nariz de la siguiente parte, el puente del departamento de la nariz tiene la hoja de aluminio fijado, para evitar que la diapositiva. La boca tiene agujeros de ventilación, el palo mágico fijo.",
+            "caracteristics": [
+                {"value": "La máscara combina la filtración de contaminantes submicrónicos con el filtro dinámico ACC (Activated Charcoal Cloth) de la máscara City."},
+                {"value": "Esta combinación proporciona una mayor capacidad que cubre un espectro más amplio de polvos y olores que cualquiera de los filtros por sí mismo."},
+                {"value": "Trabajando en combinación con el filtro"},
+                {"value": "Las dos válvulas diseñadas específicamente para mejorar el rendimiento del flujo de aire en la exhalación."},
+                {"value": "Con estas nuevas características, la máscara se encuentra en la parte superior de la gama en rendimiento y fabricado según los requisitos de rendimiento de EN149FFP1 (S)"},
+                {"value": "Material: NEOPRENO"},
+                {"value": "Tamaño: un tamaño cabido todos"},
+                {"value": "Color: Negro Verde, Filemot"},
+                {"value": "Paquete incluido: 1 x máscara facial de bicicleta con filtro"}
             ],
             "imgCaracteristics": [
-                {"url": "../assets/images/support2.jpg"},
-                {"url": "../assets/images/support3.jpg"}
+                {"url": "../assets/images/mascara2.jpg"},
+                {"url": "../assets/images/mascara3.jpg"}
             ],
             "imagenes": [
-                {"value": "../assets/images/support5.jpg"}
+                {"value": "../assets/images/mascara4.jpg"},
+                {"value": "../assets/images/mascara5.jpg"},
+                {"value": "../assets/images/mascara6.jpg"}
             ]          
         }
     ]
