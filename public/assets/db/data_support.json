@@ -1,0 +1,24 @@
+{
+    "product": [
+        {
+            "name": "Soporte Para Teléfono Celular Para Carro",
+            "url": "../assets/images/support.jpg",
+            "description": "Universal Mini Salida de Aire Coche Soporte stents Soporte de montaje de ventilación para teléfonos celulares",
+            "caracteristics": [ 
+                {"value": "Abrir y cerrar libremente, fácil instalación"},
+                {"value": "Colocado en la salida del coche, propicio para el calor, Conveniente para operar"},
+                {"value": "No bloqueará su vista, el cumplimiento de las normas de tránsito"},
+                {"value": "Fácil de retirar e instalar en la salida de aire acondicionado del coche"},
+                {"value": "Se puede girar 360 grados, fácil para ajustar a cualquier ángulo de visión"},
+                {"value": "Ancho del teléfono móvil de la ayuda entre 5-8cm"}
+            ],
+            "imgCaracteristics": [
+                {"url": "../assets/images/support2.jpg"},
+                {"url": "../assets/images/support3.jpg"}
+            ],
+            "imagenes": [
+                {"value": "../assets/images/support5.jpg"}
+            ]          
+        }
+    ]
+}

@@ -5,7 +5,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/stylesheets/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
 <body ng-app="tiendaDumar">
     <header class="header">
@@ -24,7 +24,7 @@
         </ul>
     </header>
     <article ng-controller="HomeController">
-        <section class="product">           
+        <section class="product">
             <div class="product-name" ng-repeat="product in products.product">
                 <div class="description">
                     <span ng-bind="product.name"></span>
@@ -33,7 +33,7 @@
                 <figure class="image">
                     <img ng-src="{{product.url}}" alt="" width="900px" height="800px">
                 </figure>
-                
+
             </div>
         </section>
         <section class="caracteristicas" ng-repeat="carac in products.product">
@@ -45,16 +45,16 @@
                 <div class="caracs">
                     <ul class="items">
                         <li ng-repeat="c in carac.caracteristics" ng-bind="c.value"></li>
-                    </ul>            
+                    </ul>
                 </div>
                 <figure ng-repeat="img in carac.imgCaracteristics">
                         <img ng-src="{{img.url}}" alt="">
                 </figure>
-            </div>           
+            </div>
         </section>
         <section class="imagenes" ng-repeat="imagen in products.product">
             <div class="imagenes-title sombra">
-                <i class="fa fa-arrow-right" aria-hidden="true"></i>                
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 <span>Imagenes del Producto</span>
             </div>
             <div class="imagenes-items">
@@ -65,7 +65,7 @@
         </section>
         <section class="pagos center">
             <div class="pagos-title titleSections row">
-                <i class="fa fa-usd fa-lg" aria-hidden="true"></i>                
+                <i class="fa fa-usd fa-lg" aria-hidden="true"></i>
                 <span class="left">Formas de Pago</span>
             </div>
             <div>
@@ -75,7 +75,7 @@
                 <span class="desc">Contado / Efectivo</span>
             </div>
             <div class="pagos-mercadopagos">
-                
+
             </div>
             <div class="pagos-bancos">
                 <figure class="mercadopagos">
@@ -98,7 +98,7 @@
         </section>
         <section class="envio center">
             <div class="envio-title titleSections row">
-                <i class="fa fa-truck fa-lg" aria-hidden="true"></i>                
+                <i class="fa fa-truck fa-lg" aria-hidden="true"></i>
                 <span class="left">Formas de Envio</span>
             </div>
             <span class="formas">Se puede retirar personalmente</span><br><br>
@@ -109,7 +109,7 @@
         </section>
         <section class="ubicacion center">
             <div class="ubicacion-title titleSections row">
-                <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>                
+                <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
                 <span class="left">¿Donde Estamos Ubicados?</span>
             </div>
             <div class="ubicacion-figure column">
@@ -121,7 +121,7 @@
                 <div class="ciudad">
                     <span>Los Colores,Medellin</span>
                 </div>
-            </div>         
+            </div>
         </section>
     </article>
     <script src="./assets/javascript/bundle.js"></script>

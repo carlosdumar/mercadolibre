@@ -32,7 +32,7 @@ var config = {
     }
 };
 /**
- * 
+ *
  */
 function minifyIfNeeded() {
     return gutil.env.env === 'prod'
@@ -69,7 +69,7 @@ gulp.task('build:js', function() {
 });
 
 gulp.task('build:html', function() {
-  gulp.src(config.html.main)  
+  gulp.src(config.html.main)
       .pipe(gutil.env.env === 'prod' ? htmlmin({collapseWhitespace: true}) : gutil.noop())
       .pipe(gulp.dest(config.html.output));
 });
@@ -78,7 +78,7 @@ gulp.task('watch', function() {
   gulp.watch(config.styles.watch, ['build:css']);
   gulp.watch(config.js.watch, ['build:js']);
   gulp.watch(config.html.watch, ['build:html']);
-  gulp.watch(config.js.watch, ['jshint']);  
+  gulp.watch(config.js.watch, ['jshint']);
 });
 
 gulp.task('jshint', function() {

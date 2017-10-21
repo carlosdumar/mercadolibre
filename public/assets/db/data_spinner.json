@@ -1,0 +1,31 @@
+{
+    "product": [
+        {
+            "name": "Jueguete Anti-Stress Fidget Spinner",
+            "url": "../assets/images/spinner.jpg",
+            "description": "Cuerpo de plástico ABS ultra duradero, estos rodamientos utilizan la última tecnología de baja fricción mediante la incorporación de rodamientos de acero para garantizar la longevidad y la rotación suave, fácil de llevar, pequeño, simple, discreto y divertido.",
+            "caracteristics": [
+                {"value": "Nuevo y de alta calidad."},
+                {"value": "Gran juguete para Fidgeters, ansiedad, enfoque, TDAH, autismo, dejar de hábitos malos, permanecer despierto."},
+                {"value": "Ideal para las manos Fidgety, ADD & ADHD Sufferers ayuda a aliviar el estrés."},
+                {"value": "Tamaño perfecto para adultos y niños."},
+                {"value": "Fácil de llevar, pequeño, simple, discreto y divertido, también eficaz para el pensamiento profundo."},
+                {"value": "Al igual que todos los cojinetes y juguete de hilado, lleva tiempo girando y rompiendo para lograr tiempos de hiladora más largos."},
+                {"value": "Cuanto más gire el juguete, más durará."},
+                {"value": "Material: Aleación del cinc."},
+                {"value": "Tres lados: 60 * 60 * 60m m Alto: 50m m Grueso: 15m m"},
+                {"value": "Color: Como la demostración del cuadro."},
+                {"value": "Paquete incluido: 1PC x Spinner de la mano."}
+            ],
+            "imgCaracteristics": [
+                {"url": "../assets/images/spinner2.jpg"},
+                {"url": "../assets/images/spinner3.jpg"}
+            ],
+            "imagenes": [
+                {"value": "../assets/images/spinner4.jpg"},
+                {"value": "../assets/images/spinner5.jpg"},
+                {"value": "../assets/images/spinner6.jpg"}
+            ]          
+        }
+    ]
+}
